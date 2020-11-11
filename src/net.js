@@ -1,12 +1,12 @@
-var magic = 0x0709110b
-var defaultPort = 18333
+const magic = 0x0709110b
+const defaultPort = 18333
 
-var dnsSeeds = [
+const dnsSeeds = [
   'testnet-seed.bitcoin.petertodd.org',
   'testnet-seed.bluematt.me',
   'testnet-seed.bitcoin.schildbach.de'
 ]
-var webSeeds = [
+const webSeeds = [
   'wss://us-west.seed.webcoin.io:8193',
   'wss://us-east.seed.webcoin.io:8193',
   'wss://eu.seed.webcoin.io:8193',

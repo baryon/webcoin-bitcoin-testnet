@@ -1,4 +1,4 @@
-var extend = require('webcoin-bitcoin')
+const extend = require('webcoin-bitcoin')
 
 // inherit from bitcoin mainnet params
 module.exports = extend({
